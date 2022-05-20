@@ -44,6 +44,7 @@ namespace QuanLyCuaHangKimKhi
             this.loginBtn.TabIndex = 0;
             this.loginBtn.Text = "Đăng nhập";
             this.loginBtn.UseVisualStyleBackColor = true;
+            this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
             // 
             // label1
             // 
@@ -89,6 +90,7 @@ namespace QuanLyCuaHangKimKhi
             this.Controls.Add(this.loginBtn);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
