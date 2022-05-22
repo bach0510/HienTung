@@ -34,13 +34,14 @@ namespace QuanLyCuaHangKimKhi
             this.label2 = new System.Windows.Forms.Label();
             this.userNameTxt = new System.Windows.Forms.TextBox();
             this.passwordTxt = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // loginBtn
             // 
-            this.loginBtn.Location = new System.Drawing.Point(220, 200);
+            this.loginBtn.Location = new System.Drawing.Point(130, 175);
             this.loginBtn.Name = "loginBtn";
-            this.loginBtn.Size = new System.Drawing.Size(75, 23);
+            this.loginBtn.Size = new System.Drawing.Size(117, 52);
             this.loginBtn.TabIndex = 0;
             this.loginBtn.Text = "Đăng nhập";
             this.loginBtn.UseVisualStyleBackColor = true;
@@ -58,7 +59,7 @@ namespace QuanLyCuaHangKimKhi
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(67, 151);
+            this.label2.Location = new System.Drawing.Point(67, 128);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 13);
             this.label2.TabIndex = 2;
@@ -66,23 +67,36 @@ namespace QuanLyCuaHangKimKhi
             // 
             // userNameTxt
             // 
-            this.userNameTxt.Location = new System.Drawing.Point(191, 84);
+            this.userNameTxt.Location = new System.Drawing.Point(163, 84);
             this.userNameTxt.Name = "userNameTxt";
-            this.userNameTxt.Size = new System.Drawing.Size(243, 20);
+            this.userNameTxt.Size = new System.Drawing.Size(146, 20);
             this.userNameTxt.TabIndex = 3;
             // 
             // passwordTxt
             // 
-            this.passwordTxt.Location = new System.Drawing.Point(191, 148);
+            this.passwordTxt.Location = new System.Drawing.Point(163, 125);
             this.passwordTxt.Name = "passwordTxt";
-            this.passwordTxt.Size = new System.Drawing.Size(243, 20);
+            this.passwordTxt.Size = new System.Drawing.Size(146, 20);
             this.passwordTxt.TabIndex = 4;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label4.Location = new System.Drawing.Point(42, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(290, 26);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Kim khí điện nước Hiền Tùng";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(517, 307);
+            this.ClientSize = new System.Drawing.Size(377, 259);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.passwordTxt);
             this.Controls.Add(this.userNameTxt);
             this.Controls.Add(this.label2);
@@ -104,6 +118,7 @@ namespace QuanLyCuaHangKimKhi
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox userNameTxt;
         private System.Windows.Forms.TextBox passwordTxt;
+        private System.Windows.Forms.Label label4;
     }
 }
 
